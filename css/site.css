@@ -2,9 +2,10 @@
 
 p {
   color: purple;
-  font-weight: normal;
+  font-weight:bold;
 }
 
 h1 {
   color: green;
+  font-weight:bolder;
 }
