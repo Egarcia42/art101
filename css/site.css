@@ -2,5 +2,9 @@
 
 p {
   color: purple;
-  font-weight: bold;
+  font-style: italic;
+}
+
+h1 {
+  color: green;
 }
