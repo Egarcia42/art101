@@ -1,4 +1,4 @@
-h1 {
+h2 {
   color: #523482;
   font-size: 300%;
 }
@@ -7,14 +7,4 @@ p{
   font-family: "palatino";
   text-indent: 20px;
   margin-left: 10px;
-}
-
-#content {
-  background-color: #E6E6FA;
-  width: 500px;
-  min-height: 300px;
-  padding: 10px;
-  margin: 10px;
-  border: solid 1px #523482;
-  font-size: 20px;
 }
