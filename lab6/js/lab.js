@@ -4,6 +4,8 @@
   * License: Public Domain
   **/
 
+  myTransport = [ "car, " + "bus, " + "feet.     "];
+
   myMainRide = {
     make : "Honda",
     model : "Civic",
@@ -13,8 +15,8 @@
       return 2022 - year;
     }
   }
+  space = {};
 
   // output
-  document.writeln("My Transportation Methods: ", myTransport, document.write("/n"));
-  document.writeln("My Main Ride: <pre>", JSON.stringify(myMainRide, null, '\t'), "</pre>");
-  
+  document.writeln("My Transportation Methods: ", myTransport);
+  document.writeln("My Main Ride specs: <pre>", JSON.stringify(myMainRide, null, '\t'), "</pre>");
