@@ -17,4 +17,6 @@ function sortUserName() {
 
 }
 
-document.writein("Your sorted name is", sortUserName(), "</br>");
+var printName = document.writein("Your sorted name is", sortUserName(), "</br>");
+
+return printName;
