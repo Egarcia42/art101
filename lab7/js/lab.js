@@ -9,8 +9,9 @@
 function sortUserName() {
   var userName = window.prompt("Hi. Please tell me your name so I can fix it.");
   console.log("userName =", userName);
-  //makes all characters lowercase, splits the characters and returns as an array, sorts the given array, and then re-joins the array into a singular string again.
+  //makes all characters lowercase, splits the characters and returns as an array, sorts the given array, and then re-joins the array into a singular string again and prints.
   var nameSorted = userName.toLower().split('').sort().join('');
+  console.log("nameSorted= ", nameSorted);
   // returns the sorted string
   return nameSorted
 
