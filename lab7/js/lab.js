@@ -16,3 +16,5 @@ function sortUserName() {
   return nameSorted
 
 }
+
+document.writein("Your sorted name is", sortUserName(), "</br>");
