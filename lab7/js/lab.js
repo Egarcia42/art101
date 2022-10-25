@@ -8,18 +8,18 @@
 // of their name
 function sortUserName() {
   var userName = window.prompt("Please tell me your name");
-     console.log("userName =", userName);
+    console.log("userName =", userName);
 
-     var nameArray = userName.split('');
-     console.log("nameArray =", nameArray);
+  var nameArray = userName.split('');
+    console.log("nameArray =", nameArray);
 
-     var nameArraySort = nameArray.sort();
-     console.log("nameArraySort =", nameArraySort);
+  var nameArraySort = nameArray.sort();
+    console.log("nameArraySort =", nameArraySort);
 
-     var nameSorted = nameArraySort.join('');
-     console.log("nameSorted =", nameSorted);
+  var nameSorted = nameArraySort.join('');
+    console.log("nameSorted =", nameSorted);
 
-     return nameSorted;
+    return nameSorted;
 
 }
 
