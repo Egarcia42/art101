@@ -7,13 +7,19 @@
 // sortUserName - a function that takes user input and sorts the letters
 // of their name
 function sortUserName() {
-  var userName = window.prompt("Hi. Please tell me your name so I can fix it.");
-  console.log("userName =", userName);
-  //makes all characters lowercase, splits the characters and returns as an array, sorts the given array, and then re-joins the array into a singular string again and prints.
-  var nameSorted = userName.toLower().split('').sort().join('');
-  console.log("nameSorted= ", nameSorted);
-  // returns the sorted string
-  return nameSorted
+  var userName = window.prompt("Please tell me your name");
+     console.log("userName =", userName);
+
+     var nameArray = userName.split('');
+     console.log("nameArray =", nameArray);
+
+     var nameArraySort = nameArray.sort();
+     console.log("nameArraySort =", nameArraySort);
+
+     var nameSorted = nameArraySort.join('');
+     console.log("nameSorted =", nameSorted);
+
+     return nameSorted;
 
 }
 
