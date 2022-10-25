@@ -1,0 +1,27 @@
+h1 {
+  color: #523482;
+  font-size: 175%;
+  text-decoration: underline;
+}
+
+h2{
+  font-style: bold;
+  color: #2D477A
+}
+
+p{
+  font-family: "Times New Roman";
+  text-indent: 10px;
+  margin-left: 10px;
+  color: #664f9c;
+}
+
+body {
+  background-color: #a8d4ed;
+  width: 700px;
+  min-height: 300px;
+  padding: 20px;
+  margin: 5px;
+  border: solid 10px #523482;
+  font-size: 20px;
+}

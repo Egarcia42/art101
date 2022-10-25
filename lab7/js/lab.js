@@ -23,4 +23,4 @@ function sortUserName() {
 
 }
 
-document.writein("Your sorted name is", sortUserName(), "</br>");
+document.writeln("Your sorted name is: ", sortUserName(), "</br>");
