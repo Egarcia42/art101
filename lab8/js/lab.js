@@ -4,18 +4,18 @@
   * License: Public Domain
   **/
 
-function iseven(x){
+function isEven(x){
   return (x % 2 == 0);
    }
 
   //testing
-console.log("is 3 even? ", iseven(3));
-console.log("is 4 even? ", iseven(4));
+console.log("is 3 even? ", isEven(3));
+console.log("is 4 even? ", isEven(4));
 
 array = [100, 81, 4, 16, 42, 144, 10000]
 console.log("My array", array);
 
-var result = array.map(isEven):
+var result = array.map(isEven);
 // should return [true, false, true, true, true, true, true]
 console.log("Test of evenness of array", result);
 
