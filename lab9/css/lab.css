@@ -1,0 +1,22 @@
+#Output{
+  width: 450px;
+  height: 300px;
+  background-color: orange;
+  padding-left: 50px;
+  padding-top: 35px;
+}
+
+body{
+  background-color: #515b9c;
+
+}
+
+p,h1,h2,h3{
+  color: #f5f6fa;
+
+}
+
+h3{
+  font-size: 30px;
+  text-decoration: underline;
+}
