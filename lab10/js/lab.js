@@ -25,5 +25,5 @@ function nameSorter(inputName){
     var inputVal = document.getElementById("user-name").value;
     var sortedNewName = nameSorter(inputVal);
     outputEl.innerHTML = sortedNewName;
-    document.getElementById("user-name").value="hey stupid";
+    document.getElementById("user-name").value="";
   })
