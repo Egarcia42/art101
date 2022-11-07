@@ -11,14 +11,14 @@
   $('#results').append('<button id=buttonResEL> CLICK HERE! </button>');
 
 
-  $('#buttonChalEL').click(funtion(){
-    $('#challenge').toggleClass('specialler');
+  $('#buttonChalEL').click(function(){
+    $('#challenge').toggleClass('special');
   });
 
-  $('#buttonProbEL').click(funtion(){
-    $('#problems').toggleClass('specialler');
+  $('#buttonProbEL').click(function(){
+    $('#problems').toggleClass('special');
   });
 
-  $('#buttonResEL').click(funtion(){
-    $('#results').toggleClass('specialler');
+  $('#buttonResEL').click(function(){
+    $('#results').toggleClass('special');
   });
