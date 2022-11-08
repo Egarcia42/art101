@@ -1,17 +1,33 @@
 
 
 #buttonResEL{
-  background-color: red;
+  background-color: #ff573d;
 }
 
 #buttonProbEL{
-  background-color: yellow;
+  background-color: #ffd54d;
 }
 
 #buttonChalEL{
-  background-color: blue;
+  background-color: #588ffc;
 }
 
 .special{
-  background-color: purple;
+  background-color: #FBB149;
+}
+
+.specialer{
+  background-color: #994FB2;
+}
+
+.specialler{
+  background-color: #03C0C1;
+}
+
+body{
+  background-color: #d9f2ff;
+}
+
+h1, h2, p{
+  color: #02405e;
 }
