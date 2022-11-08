@@ -16,9 +16,9 @@
   });
 
   $('#buttonProbEL').click(function(){
-    $('#problems').toggleClass('special');
+    $('#problems').toggleClass('specialer');
   });
 
   $('#buttonResEL').click(function(){
-    $('#results').toggleClass('special');
+    $('#results').toggleClass('specialler');
   });
