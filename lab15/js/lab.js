@@ -7,13 +7,14 @@
    // Using the core $.ajax() method
  $.ajax({
      // The URL for the request (from the api docs)
-     url: "https://yourapiendpoint.com/",
+     url: "https://yesno.wtf/#api",
      // The data to send (will be converted to a query string)
      data: {
              // here is where any data required by the api
              //   goes (check the api docs)
-             id: 123,
-             api_key: "blahblahblah",
+             "answer": "yes",
+             "forced": false,
+             "image": "https://yesno.wtf/assets/yes/2.gif"
            },
      // Whether this is a POST or GET request
      type: "GET",
@@ -34,6 +35,5 @@
 
    var myButton = document.getElementById('activate');
     myButton.addEventListener("click", function(){
-      var name = document.getElementById("input").value;
       document.getElementById("output").innerHTML
     })
